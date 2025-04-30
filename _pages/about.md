@@ -13,10 +13,10 @@ Assistant Dean and Associate Professor of the School of Media and Arts of Wuxi U
 研究专长：人工智能数字人、电竞跨文化传播、虚拟现实、中外合作办学等。<br>
 Research interests: Digital human technology, Cross-cultural communication of e-sports, Virtual reality, Sino-foreign cooperation in running schools, etc.
 
-代表成果 Achievements</p>
+<p>代表成果 Achievements</p>
 ======
 <i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
-The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the Absolute Category Rating (ACR) method. Mean Opinion Score (MOS) is derived through the formula:</p>
+The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the Absolute Category Rating (ACR) method. Mean Opinion Score (MOS) is derived through the formula:
 <html>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <body style="margin: 0">
