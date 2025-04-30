@@ -14,8 +14,11 @@ main:
   - title: "论文 Publications"
     url: /publications/    
 
-  - title: "报告 Talks"
+  - title: "项目 Research"
     url: /talks/    
+
+  - title: "报告 Talks"
+    url: /talks/
     
   - title: "作品 Portfolio"
     url: /portfolio/
