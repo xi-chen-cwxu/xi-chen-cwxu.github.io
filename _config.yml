@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "陈曦 XI CHEN"
+title                    : "个人简介/ABOUT ME"
 title_separator          : "-"
 name                     : &name "陈曦 XI CHEN"
 description              : &description "personal description"
