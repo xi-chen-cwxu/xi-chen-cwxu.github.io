@@ -25,8 +25,7 @@ author:
   avatar           : "cvpic.jpg"
   name             : "陈曦 Xi CHEN"
   pronouns         : # example: "she/her"  
-  bio              : "副教授 Associate Professor"
-  bio              : "博士 PhD"
+  bio              : "副教授 Associate Professor<br>博士 PhD</br"
   location         : "中国 CHINA"
   employer         : "无锡学院 WuXi University"
   uri              : # URL
