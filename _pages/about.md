@@ -17,6 +17,146 @@ Research interests: Digital human technology, Cross-cultural communication of e-
 
 代表成果 Achievements
 ======
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .accordion {
+            max-width: 600px;
+            margin: 20px auto;
+            font-family: system-ui, sans-serif;
+        }
+
+        .accordion-header {
+            padding: 15px;
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .accordion-header:hover {
+            background: #e9ecef;
+        }
+
+        .toggle-icon {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 6px 0 6px 10px;
+            border-color: transparent transparent transparent #212529;
+            margin-right: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .accordion-content {
+            padding: 0;
+            background: white;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.25s ease-out, padding 0.3s ease;
+            border-left: 2px solid #4dabf7;
+        }
+
+        .active .toggle-icon {
+            transform: rotate(90deg);
+        }
+
+        .active + .accordion-content {
+            max-height: 1000px;
+            padding: 20px;
+            transition: max-height 0.35s ease-in, padding 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="toggle-icon"></div>
+            <h3 style="margin:0"><br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br></h3>
+        </div>
+        <div class="accordion-content">
+         The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the <b>Absolute Category Rating (ACR) method</b>. <b>Mean Opinion Score (MOS)</b> is derived through the formula:
+<html>
+<head>
+    <title>MOS Formula</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        /* 精密字号控制 */
+        .container {
+            margin: 15px;
+            font-size: 0.9em;  /* 基准字号14.4px */
+            line-height: 1.6;
+            color: #444;
+        }
+        .formula-label {
+            font-size: 0.85em; /* 12.24px */
+            letter-spacing: 0.05em;
+            color: #666;
+        }
+        .formula-definition {
+            font-size: 0.75em; /* 10.8px */
+            color: #777;
+            margin-top: 8px;
+        }
+        
+        /* 数学公式缩放 */
+        math {
+            font-size: 0.9em !important;  /* 公式整体缩放 */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="formula-label">The Mean Opinion Score (MOS):</div>
+        
+        <!-- 公式容器 -->
+        <div style="text-align: center; margin: 8px 0;">
+            \[ MOS = \frac{\sum_{i=1}^{n} R_i}{n} \]
+        </div>
+
+        <!-- 定义文字 -->
+        <div class="formula-definition">
+            where \( R_i \) = individual rating score, 
+            \( n \) = total number of viewers.
+        </div>
+    </div>
+</body>
+</html>
+This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
+        </div>
+
+        <div class="accordion-header" onclick="toggleAccordion(this)">
+            <div class="toggle-icon"></div>
+            <h3 style="margin:0">更多信息</h3>
+        </div>
+        <div class="accordion-content">
+            <p>额外补充内容区域，支持多种元素：</p>
+            <div style="background: #e7f5ff; padding: 15px; border-radius: 6px;">
+                <strong>技术说明：</strong>
+                <p>使用纯CSS过渡动画实现流畅效果，无需JavaScript动画库</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAccordion(header) {
+            // 切换激活状态
+            header.classList.toggle("active");
+            
+            // 无障碍支持
+            const expanded = header.classList.contains("active");
+            header.setAttribute("aria-expanded", expanded);
+        }
+    </script>
+</body>
+</html>
+
+
+
 <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
 The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the <b>Absolute Category Rating (ACR) method</b>. <b>Mean Opinion Score (MOS)</b> is derived through the formula:
 <html>
