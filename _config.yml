@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "ABOUT ME/个人简介"
+title                    : "个人简介/ABOUT ME"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -23,11 +23,11 @@ repository               : "xi-chen-cwxu.github.io"
 author:
   # Biographic information
   avatar           : "cvpic.jpg"
-  name             : "XI CHEN 陈曦"
+  name             : "陈曦 XI CHEN"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor 副教授"
+  bio              : "副教授 Associate Professor"
   location         : "JiangSu,CHINA"
-  employer         : "WuXi University 无锡学院"
+  employer         : "无锡学院 WuXi University"
   uri              : # URL
   email            : "002463@cwxu.edu.cn" 
 
