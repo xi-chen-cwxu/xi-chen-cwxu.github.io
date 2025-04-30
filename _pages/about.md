@@ -13,7 +13,7 @@ Assistant Dean and Associate Professor of the School of Media and Arts of Wuxi U
 
 研究专长：人工智能数字人、电竞跨文化传播、虚拟现实、中外合作办学等.
 
-Research expertise: Digital human technology, Cross-cultural communication of e-sports, Virtual reality, Sino-foreign cooperation in running schools, etc.
+Research interests: Digital human technology, Cross-cultural communication of e-sports, Virtual reality, Sino-foreign cooperation in running schools, etc.
 
 A data-driven personal website
 ======
