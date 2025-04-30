@@ -52,13 +52,14 @@ redirect_from:
             width: 16px;
             height: 16px;
             margin-right: 12px;
+            transform: rotate(90deg); /* 初始向右 */
             transition: transform 0.25s ease;
             transform-origin: center;
         }
 
         /* 展开状态样式 */
         [open] .triangle {
-            transform: rotate(90deg);
+            transform: rotate(180deg);
         }
 
         /* 内容区域 */
