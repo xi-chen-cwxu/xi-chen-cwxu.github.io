@@ -17,12 +17,10 @@ Research interests: Digital human technology, Cross-cultural communication of e-
 ======
 <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
 The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the Absolute Category Rating (ACR) method. Mean Opinion Score (MOS) is derived through the formula:
-<html>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <body style="margin: 0">
   <div style="display: flex; justify-content: center; align-items: center; height: 100vh">
     \( \boxed{MOS = \dfrac{1}{n}\sum\limits_{i=1}^{n} R_i} \)
   </div>
 </body>
-</html>
 This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
