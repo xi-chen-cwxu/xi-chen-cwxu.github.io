@@ -22,7 +22,7 @@ Research interests: Digital human technology, Cross-cultural communication of e-
     <style>
         /* 基础样式 */
         .github-details {
-            max-width: 600px;
+            max-width: 900px;
             margin: 20px auto;
             border: 1px solid #d0d7de;
             border-radius: 6px;
