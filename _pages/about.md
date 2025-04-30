@@ -54,7 +54,6 @@ redirect_from:
             margin-right: 12px;
             transform: rotate(90deg); /* 初始向右 */
             transition: transform 0.25s ease;
-            transform-origin: center;
         }
 
         /* 展开状态样式 */
