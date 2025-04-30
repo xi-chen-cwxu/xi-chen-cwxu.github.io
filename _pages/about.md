@@ -13,6 +13,7 @@ Dr. Xi CHEN is currently assistant Dean and associate professor of the School of
 研究专长：人工智能数字人、电竞跨文化传播、虚拟现实、中外合作办学等。<br>
 Research interests: Digital human technology, Cross-cultural communication of e-sports, Virtual reality, Sino-foreign cooperation in running schools, etc.
 
+<hr>
 
 代表成果 Achievements
 ======
