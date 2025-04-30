@@ -18,7 +18,7 @@ Research interests: Digital human technology, Cross-cultural communication of e-
 代表成果 Achievements
 ======
 <p><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></p>
-The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the Absolute Category Rating (ACR) method. Viewers rate broadcasts on a 1–5 scale, and the Mean Opinion Score (MOS) is derived through the formula:</p>
+The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the Absolute Category Rating (ACR) method. Mean Opinion Score (MOS) is derived through the formula:</p>
 <html>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <body style="margin: 0">
@@ -27,4 +27,4 @@ The research <i>"Development of New Methods for Assessing the Quality and Effect
   </div>
 </body>
 </html>
-This quantifies broadcast fidelity while establishing correlations between technical stability (video/audio quality) and viewer satisfaction. Beyond hardware-centric metrics, the framework innovatively incorporates emotional resonance, social presence, and cognitive factors (e.g., self-efficacy, information overload), demonstrating that virtual hosts’ emotional expressiveness and interactivity amplify trust and community engagement. Additionally, the methodology bridges host attributes (realism, absence of humor) with audience-specific variables (cultural context, personal motivations), offering adaptive strategies to optimize authenticity. By unifying objective technical benchmarks with subjective human perceptions, this work sets a new paradigm for evaluating and enhancing digital human-mediated live streaming experiences.
+This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
