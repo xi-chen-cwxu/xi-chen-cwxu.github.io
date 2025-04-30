@@ -17,67 +17,80 @@ Research interests: Digital human technology, Cross-cultural communication of e-
 
 代表成果 Achievements
 ======
-<!DOCTYPE html>
 <html>
 <head>
     <style>
-        .accordion {
+        /* 基础样式 */
+        .github-details {
             max-width: 600px;
             margin: 20px auto;
-            font-family: system-ui, sans-serif;
+            border: 1px solid #d0d7de;
+            border-radius: 6px;
+            padding: 12px;
+            background: #ffffff;
         }
 
-        .accordion-header {
-            padding: 15px;
-            background: #f8f9fa;
-            border: 1px solid #dee2e6;
+        /* 标题区域 */
+        summary {
+            list-style: none;
             cursor: pointer;
+            padding: 8px;
             display: flex;
             align-items: center;
-            transition: background 0.3s ease;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            font-size: 16px;
+            color: #2f363d;
         }
 
-        .accordion-header:hover {
-            background: #e9ecef;
+        /* 禁用默认三角符号 */
+        summary::-webkit-details-marker {
+            display: none;
         }
 
-        .toggle-icon {
-            width: 0;
-            height: 0;
-            border-style: solid;
-            border-width: 6px 0 6px 10px;
-            border-color: transparent transparent transparent #212529;
+        /* 自定义三角图标 */
+        .triangle {
+            width: 16px;
+            height: 16px;
             margin-right: 12px;
-            transition: transform 0.3s ease;
+            transition: transform 0.25s ease;
+            transform-origin: center;
         }
 
-        .accordion-content {
-            padding: 0;
-            background: white;
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.25s ease-out, padding 0.3s ease;
-            border-left: 2px solid #4dabf7;
-        }
-
-        .active .toggle-icon {
+        /* 展开状态样式 */
+        [open] .triangle {
             transform: rotate(90deg);
         }
 
-        .active + .accordion-content {
-            max-height: 1000px;
-            padding: 20px;
-            transition: max-height 0.35s ease-in, padding 0.3s ease;
+        /* 内容区域 */
+        .content {
+            padding: 16px;
+            border-top: 1px solid #d0d7de;
+            margin-top: 12px;
+            background: #f6f8fa;
+            border-radius: 4px;
+        }
+
+        /* 交互动画 */
+        .content {
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
     </style>
 </head>
 <body>
-    <div class="accordion">
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-            <div class="toggle-icon"></div>
-            <h3 style="margin:0"><br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br></h3>
-        </div>
-        <div class="accordion-content">
+    <!-- 第一个折叠面板 -->
+    <details class="github-details">
+        <summary>
+            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+                <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
+            </svg>
+            <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
+        </summary>
+        <div class="content">
          The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the <b>Absolute Category Rating (ACR) method</b>. <b>Mean Opinion Score (MOS)</b> is derived through the formula:
 <html>
 <head>
@@ -128,30 +141,26 @@ Research interests: Digital human technology, Cross-cultural communication of e-
 </html>
 This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
         </div>
+    </details>
 
-        <div class="accordion-header" onclick="toggleAccordion(this)">
-            <div class="toggle-icon"></div>
-            <h3 style="margin:0">更多信息</h3>
+    <!-- 第二个折叠面板 -->
+    <details class="github-details">
+        <summary>
+            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+                <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
+            </svg>
+            技术细节
+        </summary>
+        <div class="content">
+            <p><strong>浏览器兼容性：</strong></p>
+            <table>
+                <tr><th>浏览器</th><th>支持版本</th></tr>
+                <tr><td>Chrome</td><td>≥ 12</td></tr>
+                <tr><td>Firefox</td><td>≥ 49</td></tr>
+                <tr><td>Safari</td><td>≥ 6</td></tr>
+            </table>
         </div>
-        <div class="accordion-content">
-            <p>额外补充内容区域，支持多种元素：</p>
-            <div style="background: #e7f5ff; padding: 15px; border-radius: 6px;">
-                <strong>技术说明：</strong>
-                <p>使用纯CSS过渡动画实现流畅效果，无需JavaScript动画库</p>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function toggleAccordion(header) {
-            // 切换激活状态
-            header.classList.toggle("active");
-            
-            // 无障碍支持
-            const expanded = header.classList.contains("active");
-            header.setAttribute("aria-expanded", expanded);
-        }
-    </script>
+    </details>
 </body>
 </html>
 
