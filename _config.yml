@@ -28,7 +28,7 @@ author:
   bio              : "副教授 Associate Professor"
   location         : "中国 CHINA"
   employer         : "无锡学院 WuXi University"
-  uri              : "https://www.cwxu.edu.cn/"
+  uri              : # URL
   email            : "002463@cwxu.edu.cn" 
 
   # Academic websites
