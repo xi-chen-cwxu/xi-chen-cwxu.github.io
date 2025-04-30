@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "个人简介 ABOUT ME"
+title: "个人简介 About Me"
 author_profile: true
 redirect_from: 
   - /about/
