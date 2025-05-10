@@ -82,7 +82,7 @@ redirect_from:
     </style>
 </head>
 <body>
-  
+  <br>
     <!-- 第一个折叠面板 -->
      <details class="github-details">
         <summary>
@@ -196,7 +196,6 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
 联系方式 Contact Me
 ======
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
