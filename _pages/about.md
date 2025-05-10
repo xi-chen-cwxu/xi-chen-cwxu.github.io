@@ -253,7 +253,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         .contact-info strong {
             font-weight: 600;
             margin-right: 0.5em;
-            color: #0366d6;
+            color: #000000;
         }
 
         .navi-card {
