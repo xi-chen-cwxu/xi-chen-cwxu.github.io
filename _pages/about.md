@@ -208,7 +208,8 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             <br><i><b>基于虚幻5引擎的电子竞技云端实训与职业认证平台</b></i><br>
         </summary>
         <div class="content">
-         This research co-developed 6 national standards (including Digital Art Asset ID System) with China Electronics Corporation, establishing a "government-industry-academia-application" standard ecosystem. Through partnerships with China Electronics Standardization Institute and Perfect World, we built a talent base with 12 experts, delivered 6 e-sports courses, and created a "standards-training-certification" chain adopted by industry leaders. The three-year initiative cultivated 300+ professionals, incubated 9 startups, hosted 12 provincial tournaments, and achieved Jiangsu's top industry-education integration status.
+         This research co-developed 6 national standards (including Digital Art Asset ID System) with China Electronics Corporation, establishing a "government-industry-academia-application" standard ecosystem. Through partnerships with China Electronics Standardization Institute and Perfect World, we built a talent base with 12 experts, delivered 6 e-sports courses, and created a "standards-training-certification" chain adopted by industry leaders. The three-year initiative cultivated 300+ professionals, incubated 9 startups, hosted 12 provincial tournaments, and achieved Jiangsu's top industry-education integration status.<br>
+         <img src="/images/esport.jpg" style="display: block; margin: 0 auto;">
         </div>
     </details>
     
