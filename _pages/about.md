@@ -195,30 +195,40 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
 与我联系 Contact Me
 ======
-
 <html>
 <head>
     <meta charset="UTF-8">
     <title>Campus Navigation System / 校园导航系统</title>
     <style>
+        /* 重置所有默认间距 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         .navigation-container {
             max-width: 800px;
             margin: 2rem auto;
-            padding: 15px;
+            padding: 0; /* 移除容器内边距 */
             display: flex;
             gap: 20px;
         }
 
         .contact-info {
             flex: 1;
-            padding-right: 20px;
-            min-height: 210px;
-            text-align: left;
+            /* 完全移除内边距 */
+            padding: 0;
+            margin: 0;
         }
 
         .contact-info p {
             margin: 0;
             line-height: 1.6;
+            /* 强制左对齐 */
+            text-align: left;
+            /* 移除文本缩进 */
+            text-indent: 0;
         }
 
         .contact-info strong {
@@ -228,17 +238,13 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
         .navi-card {
             flex: 1;
-            background: white;
-            border-radius: 6px;
-            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-            overflow: hidden; /* 关键修复 */
+            min-height: 260px;
         }
 
         #compactMap {
             width: 100%;
-            height: 210px;
+            height: 260px;
             border: none;
-            display: block;
         }
     </style>
 </head>
