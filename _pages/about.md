@@ -211,7 +211,13 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         .contact-info {
             flex: 1;
             padding-right: 20px;
-            min-height: 210px; /* 保持与地图等高 */
+            min-height: 210px;
+            text-align: left; /* 强制左对齐 */
+        }
+
+        .contact-info p {
+            margin: 0;
+            line-height: 1.6;
         }
 
         .navi-card {
@@ -223,9 +229,15 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
         #compactMap {
             width: 100%;
-            height: 210px;  /* 原高度420px减半 */
+            height: 210px;
             border: none;
             border-radius: 8px;
+        }
+
+        /* 新增小标题样式 */
+        .contact-info strong {
+            font-weight: 600; /* 中等加粗 */
+            margin-right: 0.5em;
         }
     </style>
 </head>
@@ -233,9 +245,9 @@ This framework quantifies technical stability (video/audio quality) and viewer s
     <div class="navigation-container">
         <div class="contact-info">
             <p>
-                电话/Tel: (0086) 17701595373<br>
-                邮箱/Email: 002463@cwxu.edu.cn<br>
-                地址/Address:<br>
+                <strong>电话/Tel:</strong> (0086) 17701595373<br>
+                <strong>邮箱/Email:</strong> 002463@cwxu.edu.cn<br>
+                <strong>地址/Address:</strong><br>
                 中国江苏省无锡市锡山区锡山大道333号<br>
                 无锡学院传媒与艺术学院<br>
                 School of Media and Arts<br>
@@ -257,4 +269,3 @@ This framework quantifies technical stability (video/audio quality) and viewer s
     </div>
 </body>
 </html>
-
