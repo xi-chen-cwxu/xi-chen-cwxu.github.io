@@ -268,7 +268,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         <div class="navi-card">
             <iframe
                 id="compactMap"
-                src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院/Wuxi University&hideRouteIcon=1&key=6334c46b7ca6cd8a3e57694d011b26b8"
+                src="https://m.amap.com/navi/?dest=120.471049,31.582806&hideRouteIcon=1&key=6334c46b7ca6cd8a3e57694d011b26b8"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
