@@ -258,12 +258,12 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
         .navi-card {
             flex: 1;
-            min-height: 280px;
+            min-height: 300px;
         }
 
         #compactMap {
             width: 100%;
-            height: 280px;
+            height: 300px;
             border: none;
         }
     </style>
@@ -274,6 +274,8 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             <p>
                 <strong>电话/Tel:</strong> (0086) 17701595373<br>
                 <strong>邮箱/Email:</strong> 002463@cwxu.edu.cn<br>
+                <strong>微信/WeChat:</strong> 17701595373<br>
+                <strong>LINE/QQ:</strong> 9839134<br>
                 <strong>地址/Address:</strong><br>
                 中国江苏省无锡市锡山区锡山大道333号<br>
                 无锡学院传媒与艺术学院<br>
