@@ -78,6 +78,7 @@ redirect_from:
             margin-top: 12px;
             background: #f6f8fa;
             border-radius: 4px;
+            color: #2f363d;
         }
 
         /* 交互动画 */
