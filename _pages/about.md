@@ -85,7 +85,7 @@ redirect_from:
     <!-- 第一个折叠面板 -->
     <details class="github-details">
         <summary>
-            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+             <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
             <br><i><b>Intelligent Acoustic Modeling and Cross-Modal Fusion：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
