@@ -179,12 +179,12 @@ This framework quantifies technical stability (video/audio quality) and viewer s
              <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
-            <br><i><b>Intelligent Acoustic Modeling and Cross-Modal Fusion：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
+            <br><i><b>Cogni-Affective Emergence：人工智能数字人在社交媒体直播中的实时交互范式研究</b></i><br>
         </summary>
         <div class="content">
-         This study proposes an intelligent acoustic multimodal fusion framework that integrates physical modeling synthesis with deep <b>generative adversarial networks (DGAN)</b>, constructing 4D geometric representations of dynamic vocal tracts via <b>Neural Radiance Fields (NeRF)</b>. <br>
-         <img src="/images/syn.jpg" style="display: block; margin: 0 auto;"><br>
-         By synchronizing cross-modal biosensor data (EMA/MRI), it achieves end-to-end mapping from articulatory gestures to acoustic parameters. A disentangled vowel space migration algorithm employing <b>Graph Convolution Networks (GCN)</b> correlates formant trajectories with emotional semantic vectors, while an interpretable AI module quantifies pathological speech features. The framework ultimately establishes an ethically constrained digital human voice synthesis system with differential privacy protection, overcoming dual limitations of traditional LPC synthesis in emotional expressiveness and biometric security.
+         This research develops an AI digital human live streaming system integrating neural rendering engines with dynamic emotion transfer learning, achieving real-time perception of audience affective states through multimodal biosignal fusion (eye tracking/micro-expression recognition/voiceprint analysis). Experimental results demonstrate AI digital anchors increase average viewing duration by <b>47.6%</b> and interaction rate by <b>82.3%</b> compared to conventional methods, with particularly significant advantages in emotional resonance (NLP emotion vector similarity ≥0.89). <br>
+         <img src="/images/dither.jpg" style="display: block; margin: 0 auto;"><br>
+         The innovative cross-modal attention alignment algorithm reduces virtual avatar lip-sync-speech-microgesture latency to within 16ms thresholds. An interpretable AI model establishes nonlinear mapping relationships between personality trait parameters (Big Five coefficient β=0.79) and user retention rates, providing theoretical foundations at the cognitive science level for content production paradigm transformation in the metaverse era.
         </div>
     </details>
     
