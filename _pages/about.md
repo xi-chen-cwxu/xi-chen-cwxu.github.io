@@ -183,7 +183,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         </summary>
         <div class="content">
          This research develops an AI digital human live streaming system integrating neural rendering engines with dynamic emotion transfer learning, achieving real-time perception of audience affective states through multimodal biosignal fusion (eye tracking/micro-expression recognition/voiceprint analysis). Experimental results demonstrate AI digital anchors increase average viewing duration by <b>47.6%</b> and interaction rate by <b>82.3%</b> compared to conventional methods, with particularly significant advantages in emotional resonance (NLP emotion vector similarity ≥0.89). <br>
-         <img src="/images/dither.jpg" style="display: block; margin: 0 auto;"><br>
+         <img src="/images/dht.jpg" style="display: block; margin: 0 auto;"><br>
          The innovative cross-modal attention alignment algorithm reduces virtual avatar lip-sync-speech-microgesture latency to within 16ms thresholds. An interpretable AI model establishes nonlinear mapping relationships between personality trait parameters (Big Five coefficient β=0.79) and user retention rates, providing theoretical foundations at the cognitive science level for content production paradigm transformation in the metaverse era.
         </div>
     </details>
