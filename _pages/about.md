@@ -247,15 +247,13 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             text-align: left;
             text-indent: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            /* 修改1: 使用GitHub主题变量 */
-            color: var(--color-text-primary, #24292e); /* 回退到深灰 */
+            /* 已移除color属性 */
         }
 
         .contact-info strong {
-            font-weight: 600;
+            font-weight: 600; /* 仅保留加粗 */
             margin-right: 0.5em;
-            /* 修改2: 标题颜色改为纯黑 */
-            color: var(--color-fg-default, #000000); /* 回退到纯黑 */
+            /* 已移除color属性 */
         }
 
         .navi-card {
@@ -264,8 +262,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             border-radius: 6px;
             box-shadow: 0 3px 6px rgba(0,0,0,0.1);
             overflow: hidden;
-            /* 增加主题适配 */
-            background-color: var(--color-canvas-default, #ffffff);
+            background-color: inherit; /* 继承父级背景色 */
         }
 
         #compactMap {
@@ -279,10 +276,10 @@ This framework quantifies technical stability (video/audio quality) and viewer s
     <div class="navigation-container">
         <div class="contact-info">
             <p>
-                <strong>电话/Tel:</strong> (0086) 17701595373<br>
-                <strong>邮箱/Email:</strong> 002463@cwxu.edu.cn<br>
+                <strong>电话/Tel:</strong> <a href="tel:+8617701595373">(0086) 17701595373</a><br>
+                <strong>邮箱/Email:</strong> <a href="mailto:002463@cwxu.edu.cn">002463@cwxu.edu.cn</a><br>
                 <strong>微信/WeChat:</strong> 17701595373<br>
-                <strong>LINE/QQ:</strong> 9839134<br>
+                <strong>LINE/QQ:</strong> <a href="tencent://message/?uin=9839134">9839134</a><br>
                 <strong>地址/Address:</strong><br>
                 中国江苏省无锡市锡山区锡山大道333号<br>
                 无锡学院传媒与艺术学院<br>
