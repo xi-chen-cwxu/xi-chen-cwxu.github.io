@@ -227,7 +227,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         }
 
         body {
-            background: #f0f2f5;
+            background: #ffffff;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             padding: 20px;
         }
