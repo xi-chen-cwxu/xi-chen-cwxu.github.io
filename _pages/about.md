@@ -211,6 +211,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         .contact-info {
             flex: 1;
             padding-right: 20px;
+            min-height: 210px; /* 保持与地图等高 */
         }
 
         .navi-card {
@@ -222,7 +223,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
         #compactMap {
             width: 100%;
-            height: 420px;  /* 微调高度补偿标题移除 */
+            height: 210px;  /* 原高度420px减半 */
             border: none;
             border-radius: 8px;
         }
@@ -248,7 +249,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         <div class="navi-card">
             <iframe
                 id="compactMap"
-                src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院正门/Wuxi University Main Gate&hideRouteIcon=1&key=6334c46b7ca6cd7a3e57694d011b26b8"
+                src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院正门/Wuxi University Main Gate&hideRouteIcon=1&key=6334c46b7ca6cd8a3e57694d011b26b8"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
@@ -256,5 +257,4 @@ This framework quantifies technical stability (video/audio quality) and viewer s
     </div>
 </body>
 </html>
-
 
