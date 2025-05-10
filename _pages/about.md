@@ -253,7 +253,6 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             line-height: 1.8;
             font-size: 0.95rem;
             margin-bottom: 1.2rem;
-            position: relative;
         }
 
         .contact-info strong {
@@ -261,47 +260,6 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             color: #2d3748;
             min-width: 100px;
             display: inline-block;
-        }
-
-        /* 新增点击样式 */
-        .copyable {
-            cursor: pointer;
-            position: relative;
-            transition: all 0.2s;
-            border-bottom: 1px dashed #ccc;
-        }
-
-        .copyable:hover {
-            color: #07c160;  /* 微信绿色 */
-            border-color: #07c160;
-        }
-
-        .qq-copyable {
-            cursor: pointer;
-            border-bottom: 1px dashed #ccc;
-        }
-        .qq-copyable:hover {
-            color: #07c160;  /* QQ绿色 */
-            border-color: #07c160;
-        }
-
-        .copied-tooltip {
-            position: absolute;
-            background: rgba(0,0,0,0.8);
-            color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            top: -30px;
-            left: 50%;
-            transform: translateX(-50%);
-            opacity: 0;
-            transition: opacity 0.3s;
-            pointer-events: none;
-        }
-
-        .copied-tooltip.show {
-            opacity: 1;
         }
 
         .navi-card {
@@ -340,21 +298,8 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             <p>
                 <strong>电话/Tel:</strong> <a href="tel:+8617701595373">(0086) 17701595373</a><br>
                 <strong>邮箱/Email:</strong> <a href="mailto:002463@cwxu.edu.cn">002463@cwxu.edu.cn</a><br>
-                
-                <strong>微信/WeChat:</strong>
-                <span class="copyable" onclick="copyText('17701595373', this)">
-                    17701595373
-                    <span class="copied-tooltip">已复制!</span>
-                </span><br>
-                
-                <strong>LINE/QQ:</strong>
-                <span class="qq-copyable" onclick="copyText('9839134', this)">
-                    9839134
-                    <span class="copied-tooltip">已复制!</span>
-                </span>
-            </p>
-
-            <p>
+                <strong>微信/WeChat:</strong> 17701595373<br>
+                <strong>LINE/QQ:</strong> <a href="tencent://message/?uin=9839134">9839134</a><br>
                 <strong>地址/Address:</strong><br>
                 中国江苏省无锡市锡山区锡山大道333号<br>
                 无锡学院传媒与艺术学院<br>
@@ -376,28 +321,5 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             </iframe>
         </div>
     </div>
-
-    <script>
-        function copyText(text, element) {
-            navigator.clipboard.writeText(text).then(() => {
-                showTooltip(element);
-            }).catch(err => {
-                // 兼容旧版浏览器
-                const textarea = document.createElement('textarea');
-                textarea.value = text;
-                document.body.appendChild(textarea);
-                textarea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textarea);
-                showTooltip(element);
-            });
-        }
-
-        function showTooltip(element) {
-            const tooltip = element.querySelector('.copied-tooltip');
-            tooltip.classList.add('show');
-            setTimeout(() => tooltip.classList.remove('show'), 1500);
-        }
-    </script>
 </body>
 </html>
