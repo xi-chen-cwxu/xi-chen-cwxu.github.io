@@ -92,7 +92,7 @@ redirect_from:
         </summary>
         <div class="content">
          This study proposes an intelligent acoustic multimodal fusion framework that integrates physical modeling synthesis with deep <b>generative adversarial networks (DGAN)</b>, constructing 4D geometric representations of dynamic vocal tracts via <b>Neural Radiance Fields (NeRF)</b>. 
-          
+         <img src='/images/syn.jpg'>
          By synchronizing cross-modal biosensor data (EMA/MRI), it achieves end-to-end mapping from articulatory gestures to acoustic parameters. A disentangled vowel space migration algorithm employing <b>Graph Convolution Networks (GCN)</b> correlates formant trajectories with emotional semantic vectors, while an interpretable AI module quantifies pathological speech features. The framework ultimately establishes an ethically constrained digital human voice synthesis system with differential privacy protection, overcoming dual limitations of traditional LPC synthesis in emotional expressiveness and biometric security.
         </div>
     </details>
