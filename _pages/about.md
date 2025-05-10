@@ -193,8 +193,9 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 <br>
 <hr>
 
-联系方式 Contact Me
+与我联系 Contact Me
 ======
+
 <html>
 <head>
     <meta charset="UTF-8">
@@ -212,7 +213,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             flex: 1;
             padding-right: 20px;
             min-height: 210px;
-            text-align: left; /* 强制左对齐 */
+            text-align: left;
         }
 
         .contact-info p {
@@ -220,24 +221,24 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             line-height: 1.6;
         }
 
+        .contact-info strong {
+            font-weight: 600;
+            margin-right: 0.5em;
+        }
+
         .navi-card {
             flex: 1;
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+            overflow: hidden; /* 关键修复 */
         }
 
         #compactMap {
             width: 100%;
             height: 210px;
             border: none;
-            border-radius: 8px;
-        }
-
-        /* 新增小标题样式 */
-        .contact-info strong {
-            font-weight: 600; /* 中等加粗 */
-            margin-right: 0.5em;
+            display: block;
         }
     </style>
 </head>
