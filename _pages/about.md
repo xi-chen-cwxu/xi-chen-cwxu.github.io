@@ -258,12 +258,12 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
         .navi-card {
             flex: 1;
-            min-height: 300px;
+            min-height: 350px;
         }
 
         #compactMap {
             width: 100%;
-            height: 300px;
+            height: 350px;
             border: none;
         }
     </style>
