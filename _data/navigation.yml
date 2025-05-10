@@ -17,8 +17,8 @@ main:
   - title: "项目 Research"
     url: /talks/    
 
-  - title: "报告 Talks"
-    url: /cv/
+  #- title: "报告 Talks"
+  #  url: /cv/
     
   - title: "作品 Portfolio"
     url: /portfolio/
