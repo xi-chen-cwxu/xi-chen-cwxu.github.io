@@ -227,45 +227,46 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         }
 
         body {
-            background-color: #f5f5f5;
-            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: #f0f2f5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            padding: 20px;
         }
 
         .navigation-container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 2rem auto;
-            padding: 20px;
-            display: flex;
-            gap: 20px;
+            padding: 30px;
             background: white;
             border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            display: flex;
+            gap: 30px;
         }
 
         .contact-info {
             flex: 1;
-            padding-right: 20px;
-            border-right: 1px solid #eee;
+            padding-right: 30px;
         }
 
         .contact-info p {
-            margin: 0;
-            line-height: 1.8;
             color: #444;
+            line-height: 1.8;
             font-size: 0.95rem;
+            margin-bottom: 1.2rem;
         }
 
         .contact-info strong {
             font-weight: 600;
-            color: #2c3e50;
+            color: #2d3748;
+            min-width: 100px;
             display: inline-block;
-            min-width: 90px;
         }
 
         .navi-card {
-            flex: 1;
-            min-height: 350px;
-            position: relative;
+            flex: 1.2;
+            min-height: 400px;
+            border-left: 1px solid #eee;
+            padding-left: 30px;
         }
 
         #compactMap {
@@ -278,13 +279,15 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         @media (max-width: 768px) {
             .navigation-container {
                 flex-direction: column;
+                padding: 20px;
                 margin: 1rem;
             }
-            .contact-info {
-                padding-right: 0;
-                border-right: none;
-                border-bottom: 1px solid #eee;
-                padding-bottom: 20px;
+            .navi-card {
+                border-left: none;
+                border-top: 1px solid #eee;
+                padding-left: 0;
+                padding-top: 20px;
+                min-height: 300px;
             }
         }
     </style>
@@ -311,104 +314,10 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         <div class="navi-card">
             <iframe
                 id="compactMap"
-                src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院/Wuxi University&hideRouteIcon=1&showTitle=0&key=6334c46b7ca6cd8a3e57694d011b26b8"
+                src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院/Wuxi University&hideRouteIcon=1&key=6334c46b7ca6cd8a3e57694d011b26b8"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
                 title="校园导航地图">
-            </iframe>
-        </div>
-    </div>
-</body>
-</html>
-<hr style="
-            border: none;
-            height: 3px;
-            background: linear-gradient(
-                to right,
-                #f0f0f0,
-                #909090,
-                #f0f0f0
-            );
-            margin: 30px 0;
-        ">
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Campus Navigation System / 校园导航系统</title>
-    <style>
-        /* 重置所有默认间距 */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .navigation-container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0; /* 移除容器内边距 */
-            display: flex;
-            gap: 20px;
-        }
-
-        .contact-info {
-            flex: 1;
-            /* 完全移除内边距 */
-            padding: 0;
-            margin: 0;
-        }
-
-        .contact-info p {
-            margin: 0;
-            line-height: 1.6;
-            /* 强制左对齐 */
-            text-align: left;
-            /* 移除文本缩进 */
-            text-indent: 0;
-        }
-
-        .contact-info strong {
-            font-weight: 600;
-            margin-right: 0.5em;
-        }
-
-        .navi-card {
-            flex: 1;
-            min-height: 350px;
-        }
-
-        #compactMap {
-            width: 100%;
-            height: 350px;
-            border: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="navigation-container">
-        <div class="contact-info">
-            <p>
-                <strong>电话/Tel:</strong> (0086) 17701595373<br>
-                <strong>邮箱/Email:</strong> 002463@cwxu.edu.cn<br>
-                <strong>微信/WeChat:</strong> 17701595373<br>
-                <strong>LINE/QQ:</strong> 9839134<br>
-                <strong>地址/Address:</strong><br>
-                中国江苏省无锡市锡山区锡山大道333号<br>
-                无锡学院传媒与艺术学院<br>
-                School of Media and Arts<br>
-                Wuxi University<br>
-                No.333 Xishan Avenue<br>
-                Xishan District, Wuxi<br>
-                Jiangsu Province, China
-            </p>
-        </div>
-
-        <div class="navi-card">
-            <iframe
-                id="compactMap"
-                src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院/Wuxi University&hideRouteIcon=1&key=6334c46b7ca6cd8a3e57694d011b26b8"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
