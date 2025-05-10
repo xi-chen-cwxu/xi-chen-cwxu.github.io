@@ -103,6 +103,21 @@ redirect_from:
             <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
+            <br><i><b>基于AI数字人声纹优化的自适应抖动噪声整形技术研究</b></i><br>
+        </summary>
+          <div class="content">
+         This study proposes a cognition-driven adaptive dithering framework that integrates neural quantization engines with <b>generative adversarial networks (GANs)</b>, establishing dynamic noise shaping strategies based on psychoacoustic priors.  <br>
+         <img src="/images/syn.jpg" style="display: block; margin: 0 auto;"><br>
+         By developing an end-to-end neural vocoder architecture with parallelized dither signal generation and voiceprint feature extraction networks, we optimize the Pareto frontier between nonlinear distortion reduction and biometric preservation through contrastive learning. Innovatively incorporating multimodal emotional semantic vectors, we create time-frequency aware dither intensity adaptation algorithms and achieve cross-scenario (real-time dialogue/singing synthesis) noise distribution transfer via meta-learning, ultimately constructing an AI digital human acoustic optimization system aligned with human auditory cortex response characteristics.
+        </div>
+    </details>
+
+       <!-- 第三个折叠面板 -->
+    <details class="github-details">
+        <summary>
+            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+                <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
+            </svg>
             <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
         </summary>
           <div class="content">
@@ -155,25 +170,6 @@ redirect_from:
 </body>
 </html>
 This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
-        </div>
-    </details>
-
-       <!-- 第三个折叠面板 -->
-    <details class="github-details">
-        <summary>
-            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
-                <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
-            </svg>
-            技术细节
-        </summary>
-        <div class="content">
-            <p><strong>浏览器兼容性：</strong></p>
-            <table>
-                <tr><th>浏览器</th><th>支持版本</th></tr>
-                <tr><td>Chrome</td><td>≥ 12</td></tr>
-                <tr><td>Firefox</td><td>≥ 49</td></tr>
-                <tr><td>Safari</td><td>≥ 6</td></tr>
-            </table>
         </div>
     </details>
 </body>
