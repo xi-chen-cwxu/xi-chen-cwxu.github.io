@@ -211,19 +211,19 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
         .contact-info {
             flex: 1;
+            padding-right: 20px;
         }
 
         .navi-card {
             flex: 1;
             background: white;
-            padding: 1rem;
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         #compactMap {
             width: 100%;
-            height: 400px;
+            height: 420px;  /* 微调高度补偿标题移除 */
             border: none;
             border-radius: 8px;
         }
@@ -247,10 +247,6 @@ This framework quantifies technical stability (video/audio quality) and viewer s
         </div>
 
         <div class="navi-card">
-            <div class="bilingual-title">
-                <h3>无锡学院（锡山大道333号）</h3>
-                <div class="en">Wuxi University (No.333 Xishan Avenue)</div>
-            </div>
             <iframe
                 id="compactMap"
                 src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院正门/Wuxi University Main Gate&hideRouteIcon=1&key=6334c46b7ca6cd7a3e57694d011b26b8"
