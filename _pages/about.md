@@ -317,3 +317,19 @@ This framework quantifies technical stability (video/audio quality) and viewer s
     </div>
 </body>
 </html>
+<br>
+<hr style="
+            border: none;
+            height: 3px;
+            background: linear-gradient(
+                to right,
+                #f0f0f0,
+                #909090,
+                #f0f0f0
+            );
+            margin: 30px 0;
+        ">
+
+个人动态 Current Activities
+======
+I'm currently teaching the 2024-2025 second semester in Wuxi, and will be relocating to Chiang Mai, Thailand during July-August 2025.
