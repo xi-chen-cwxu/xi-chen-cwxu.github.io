@@ -88,7 +88,7 @@ redirect_from:
              <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
-            <br><i><b>Intelligent Acoustic Modeling and Cross-Modal Fusion：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
+            <br><i><b>Neuro-Acoustic Synergy：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
         </summary>
         <div class="content">
          This study proposes an intelligent acoustic multimodal fusion framework that integrates physical modeling synthesis with deep <b>generative adversarial networks (DGAN)</b>, constructing 4D geometric representations of dynamic vocal tracts via <b>Neural Radiance Fields (NeRF)</b>. <br>
@@ -172,6 +172,22 @@ redirect_from:
 This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
         </div>
     </details>
+    
+     <!-- 第四个折叠面板 -->
+    <details class="github-details">
+        <summary>
+             <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+                <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
+            </svg>
+            <br><i><b>Intelligent Acoustic Modeling and Cross-Modal Fusion：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
+        </summary>
+        <div class="content">
+         This study proposes an intelligent acoustic multimodal fusion framework that integrates physical modeling synthesis with deep <b>generative adversarial networks (DGAN)</b>, constructing 4D geometric representations of dynamic vocal tracts via <b>Neural Radiance Fields (NeRF)</b>. <br>
+         <img src="/images/syn.jpg" style="display: block; margin: 0 auto;"><br>
+         By synchronizing cross-modal biosensor data (EMA/MRI), it achieves end-to-end mapping from articulatory gestures to acoustic parameters. A disentangled vowel space migration algorithm employing <b>Graph Convolution Networks (GCN)</b> correlates formant trajectories with emotional semantic vectors, while an interpretable AI module quantifies pathological speech features. The framework ultimately establishes an ethically constrained digital human voice synthesis system with differential privacy protection, overcoming dual limitations of traditional LPC synthesis in emotional expressiveness and biometric security.
+        </div>
+    </details>
+    
 </body>
 </html>
 
