@@ -107,7 +107,7 @@ redirect_from:
         </summary>
           <div class="content">
          This study proposes a cognition-driven adaptive dithering framework that integrates neural quantization engines with <b>generative adversarial networks (GANs)</b>, establishing dynamic noise shaping strategies based on psychoacoustic priors.  <br>
-         <img src="/images/syn.jpg" style="display: block; margin: 0 auto;"><br>
+         <img src="/images/dither.jpg" style="display: block; margin: 0 auto;"><br>
          By developing an end-to-end neural vocoder architecture with parallelized dither signal generation and voiceprint feature extraction networks, we optimize the Pareto frontier between nonlinear distortion reduction and biometric preservation through contrastive learning. Innovatively incorporating multimodal emotional semantic vectors, we create time-frequency aware dither intensity adaptation algorithms and achieve cross-scenario (real-time dialogue/singing synthesis) noise distribution transfer via meta-learning, ultimately constructing an AI digital human acoustic optimization system aligned with human auditory cortex response characteristics.
         </div>
     </details>
