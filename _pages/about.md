@@ -215,80 +215,59 @@ This framework quantifies technical stability (video/audio quality) and viewer s
 
 与我联系 Contact Me
 ======
-<html lang="zh-CN">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Campus Navigation System / 校园导航系统</title>
     <style>
+        /* 重置所有默认间距 */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        body {
-            background: #ffffff;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-            padding: 20px;
-        }
-
         .navigation-container {
-            max-width: 1000px;
+            max-width: 800px;
             margin: 2rem auto;
-            padding: 30px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            padding: 0;
             display: flex;
-            gap: 30px;
+            gap: 20px;
         }
 
         .contact-info {
             flex: 1;
-            padding-right: 30px;
+            padding: 0;
+            margin: 0;
         }
 
         .contact-info p {
-            color: #444;
-            line-height: 1.8;
-            font-size: 0.95rem;
-            margin-bottom: 1.2rem;
+            margin: 0;
+            line-height: 1.6;
+            text-align: left;
+            text-indent: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: #24292e;
         }
 
         .contact-info strong {
             font-weight: 600;
-            color: #2d3748;
-            min-width: 100px;
-            display: inline-block;
+            margin-right: 0.5em;
+            color: #0366d6;
         }
 
         .navi-card {
-            flex: 1.2;
-            min-height: 400px;
-            border-left: 1px solid #eee;
-            padding-left: 30px;
+            flex: 1;
+            min-height: 350px;
+            border-radius: 6px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
         }
 
         #compactMap {
             width: 100%;
-            height: 100%;
+            height: 350px;
             border: none;
-            border-radius: 8px;
-        }
-
-        @media (max-width: 768px) {
-            .navigation-container {
-                flex-direction: column;
-                padding: 20px;
-                margin: 1rem;
-            }
-            .navi-card {
-                border-left: none;
-                border-top: 1px solid #eee;
-                padding-left: 0;
-                padding-top: 20px;
-                min-height: 300px;
-            }
         }
     </style>
 </head>
@@ -316,8 +295,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
                 id="compactMap"
                 src="https://m.amap.com/navi/?dest=120.471049,31.582806&destName=无锡学院/Wuxi University&hideRouteIcon=1&key=6334c46b7ca6cd8a3e57694d011b26b8"
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                title="校园导航地图">
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
