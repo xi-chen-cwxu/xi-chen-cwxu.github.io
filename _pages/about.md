@@ -88,58 +88,10 @@ redirect_from:
             <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
-            <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
+            <br><i><b>Holosync：智能声学建模与跨模态融合：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
         </summary>
         <div class="content">
-         The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the <b>Absolute Category Rating (ACR) method</b>. <b>Mean Opinion Score (MOS)</b> is derived through the formula:
-<html>
-<head>
-    <title>MOS Formula</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
-        /* 精密字号控制 */
-        .container {
-            margin: 15px;
-            font-size: 0.9em;  /* 基准字号14.4px */
-            line-height: 1.6;
-            color: #444;
-        }
-        .formula-label {
-            font-size: 0.85em; /* 12.24px */
-            letter-spacing: 0.05em;
-            color: #666;
-        }
-        .formula-definition {
-            font-size: 0.75em; /* 10.8px */
-            color: #777;
-            margin-top: 8px;
-        }
-        
-        /* 数学公式缩放 */
-        math {
-            font-size: 0.9em !important;  /* 公式整体缩放 */
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="formula-label">The Mean Opinion Score (MOS):</div>
-        
-        <!-- 公式容器 -->
-        <div style="text-align: center; margin: 8px 0;">
-            \[ MOS = \frac{\sum_{i=1}^{n} R_i}{n} \]
-        </div>
-
-        <!-- 定义文字 -->
-        <div class="formula-definition">
-            where \( R_i \) = individual rating score, 
-            \( n \) = total number of viewers.
-        </div>
-    </div>
-</body>
-</html>
-This framework quantifies technical stability (video/audio quality) and viewer satisfaction correlations, while innovatively integrating <b>emotional resonance, social presence, and cognitive dynamics</b>. It bridges virtual hosts' attributes (realism, emotional expressiveness) with audience-specific variables (cultural context, motivations), establishing a new evaluation paradigm that unifies technical benchmarks with human-centric perceptions to optimize digital streaming authenticity.
+         This study proposes an intelligent acoustic multimodal fusion framework that integrates physical modeling synthesis with deep <b>generative adversarial networks (DGAN)</b>, constructing 4D geometric representations of dynamic vocal tracts via <b>Neural Radiance Fields (NeRF)</b>. By synchronizing cross-modal biosensor data (EMA/MRI), it achieves end-to-end mapping from articulatory gestures to acoustic parameters. A disentangled vowel space migration algorithm employing <b>Graph Convolution Networks (GCN)</b> correlates formant trajectories with emotional semantic vectors, while an interpretable AI module quantifies pathological speech features. The framework ultimately establishes an ethically constrained digital human voice synthesis system with differential privacy protection, overcoming dual limitations of traditional LPC synthesis in emotional expressiveness and biometric security.
         </div>
     </details>
 
