@@ -12,7 +12,7 @@ redirect_from:
 
 研究专长：人工智能数字人、电竞跨文化传播。<br>
 <p style="font-size:16px">Research interests: Digital human technology, Cross-cultural communication of e-sports.</p>
-
+<br>
 <hr>
 
 代表成果 Achievements
@@ -82,7 +82,6 @@ redirect_from:
     </style>
 </head>
 <body>
-  <br>
     <!-- 第一个折叠面板 -->
      <details class="github-details">
         <summary>
@@ -191,7 +190,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
     
 </body>
 </html>
-
+<br>
 <hr>
 
 联系方式 Contact Me
