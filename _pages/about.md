@@ -198,6 +198,19 @@ This framework quantifies technical stability (video/audio quality) and viewer s
          The innovative cross-modal attention alignment algorithm reduces virtual avatar lip-sync-speech-microgesture latency to within 16ms thresholds. An interpretable AI model establishes nonlinear mapping relationships between personality trait parameters (Big Five coefficient β=0.79) and user retention rates, providing theoretical foundations at the cognitive science level for content production paradigm transformation in the metaverse era.
         </div>
     </details>
+
+         <!-- 第五个折叠面板 -->
+    <details class="github-details">
+        <summary>
+             <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
+                <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
+            </svg>
+            <br><i><b>基于虚幻5引擎的电子竞技云端实训与职业认证平台</b></i><br>
+        </summary>
+        <div class="content">
+         This research co-developed 6 national standards (including Digital Art Asset ID System) with China Electronics Corporation, establishing a "government-industry-academia-application" standard ecosystem. Through partnerships with China Electronics Standardization Institute and Perfect World, we built a talent base with 12 experts, delivered 6 e-sports courses, and created a "standards-training-certification" chain adopted by industry leaders. The three-year initiative cultivated 300+ professionals, incubated 9 startups, hosted 12 provincial tournaments, and achieved Jiangsu's top industry-education integration status.
+        </div>
+    </details>
     
 </body>
 </html>
