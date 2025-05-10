@@ -96,7 +96,7 @@ redirect_from:
     <!-- 第一个折叠面板 -->
      <details class="github-details">
         <summary>
-            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+            <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
             <br><i><b>基于AI数字人声纹优化的自适应抖动噪声整形技术研究</b></i><br>
@@ -111,7 +111,7 @@ redirect_from:
   <!-- 第二个折叠面板 -->
     <details class="github-details">
         <summary>
-             <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+             <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
             <br><i><b>Neuro-Acoustic Synergy：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
@@ -126,7 +126,7 @@ redirect_from:
        <!-- 第三个折叠面板 -->
     <details class="github-details">
         <summary>
-            <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+            <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
             <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
@@ -187,7 +187,7 @@ This framework quantifies technical stability (video/audio quality) and viewer s
      <!-- 第四个折叠面板 -->
     <details class="github-details">
         <summary>
-             <svg class="triangle" viewBox="0 0 16 16" fill="#2f81f7">
+             <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
             <br><i><b>人工智能数字人在社交媒体直播中的实时交互范式研究</b></i><br>
