@@ -330,6 +330,3 @@ This framework quantifies technical stability (video/audio quality) and viewer s
             margin: 30px 0;
         ">
 
-个人动态 Current Activities
-======
-I'm currently teaching the 2024-2025 second semester in Wuxi, and will be relocating to Chiang Mai, Thailand during July-August 2025. I will be participating in the International Conference on 3D Web Technology (Web3D) in Switzerland during August 2025.
