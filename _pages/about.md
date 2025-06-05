@@ -99,7 +99,7 @@ redirect_from:
             <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
-            <br><i><b>基于AI数字人声纹优化的自适应抖动噪声整形技术研究</b></i><br>
+            <br><i><b>基于AI数字人的声纹优化自适应抖动技术研究</b></i><br>
         </summary>
           <div class="content">
          This study proposes a cognition-driven adaptive dithering framework that integrates neural quantization engines with <b>generative adversarial networks (GANs)</b>, establishing dynamic noise shaping strategies based on psychoacoustic priors.  <br>
@@ -114,7 +114,7 @@ redirect_from:
              <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
-            <br><i><b>Neuro-Acoustic Synergy：人工智能数字人语音合成的前沿探索与共振峰驱动的生成架构研究</b></i><br>
+            <br><i><b>Neuro-Acoustic Synergy：人工智能数字人语音合成的前沿探索与架构研究</b></i><br>
         </summary>
         <div class="content">
          This study proposes an intelligent acoustic multimodal fusion framework that integrates physical modeling synthesis with deep <b>generative adversarial networks (DGAN)</b>, constructing 4D geometric representations of dynamic vocal tracts via <b>Neural Radiance Fields (NeRF)</b>. <br>
@@ -129,7 +129,7 @@ redirect_from:
             <svg class="triangle" viewBox="0 0 16 16" fill="#59677A">
                 <path d="M8 0L14.9282 12H1.0718L8 0Z"/>
             </svg>
-            <br><i><b>Holosync：融合ACR-MOS指标、情感共鸣与文化自适应的人工智能数字人直播效能评估框架</b></i><br>
+            <br><i><b>Holosync：融合ACR-MOS指标的人工智能数字人直播效能评估框架</b></i><br>
         </summary>
           <div class="content">
          The research <i>"Development of New Methods for Assessing the Quality and Effectiveness of Live Broadcasts Using Digital Human Technologies" </i>pioneers a multidimensional evaluation framework that integrates technical performance metrics and audience psychological dynamics to redefine standards for virtual host-driven broadcasts. A groundbreaking contribution is the hierarchical assessment system, beginning with a technical quality module employing the <b>Absolute Category Rating (ACR) method</b>. <b>Mean Opinion Score (MOS)</b> is derived through the formula:
